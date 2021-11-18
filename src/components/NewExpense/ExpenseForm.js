@@ -20,6 +20,7 @@ function ExpenseForm() {
 
     function submitHandler(event) {
         event.preventDefault();
+
         const expenseData = {
             title: enteredTitle, 
             amount: enteredAmount, 
